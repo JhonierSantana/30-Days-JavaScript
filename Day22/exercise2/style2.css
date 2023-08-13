@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .country-box {
+    width: 150px;
+    height: 140px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+  }
+  
