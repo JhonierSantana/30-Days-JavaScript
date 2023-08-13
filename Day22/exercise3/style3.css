@@ -1,0 +1,145 @@
+.challenge-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+h1 {
+text-align:center
+}
+.challenge {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr; 
+    align-items: center; 
+}
+.done {
+background-color: green;
+}
+.ongoing{
+background-color: yellow;       
+}
+.coming {
+background-color: red;
+}
+.challenge-name {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+
+.challenge-status {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px;
+}
+
+.challenge-topics {
+    margin-top: 10px;
+    list-style: disc;
+    padding-left: 20px;
+}
+.details {
+  text-align: center;
+}
+
+.github-link {
+    display: block;
+    margin-top: 10px;
+}
+
+summary {
+    cursor: pointer;
+    outline: none;
+}
+.year {
+   font-size: 80px;
+   font-weight: bold; 
+}
+p {
+text-align: center;
+}
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.social-links {
+    font-size: 24px;
+    margin: 10px;
+    
+}
+
+.social-links a {
+    color: black;
+    text-decoration: none;
+    margin: 4px;
+    
+}
+.asa{
+margin-top: 5px;
+}
+
+.container-row {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+.container-row > div {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+.challenge-topics {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.challenge-topics li:before {
+    content: none; 
+
+}
+#keywords-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.keyword-circle {
+    border-radius: 30px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+    min-width: 80px; 
+  }
+  
+
+.keyword-html { background-color: #E44D26; }
+.keyword-css { background-color: #2965F1; }
+.keyword-js { background-color: #F0DB4F; }
+.keywords-container > .keyword-circle {
+flex: 0 0 calc(33.33% - 20px);
+}
+li {
+    list-style: none;
+}
+details summary::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 1px;
+    background-color: #080505;
+    margin-top: 5px;
+  }

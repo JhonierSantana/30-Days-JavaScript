@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Top 10 Most Populated Countries and Languages</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>World Countries Data</h1>
+    </div>
+    <div class="buttons">
+      <button id="populationBtn" onclick="showChart('population')">
+        Population
+      </button>
+      <button id="languagesBtn" onclick="showChart('languages')">
+        Languages
+      </button>
+    </div>
+
+    <div id="chartContainer">
+      <div id="populatedCountriesChart"></div>
+      <div id="spokenLanguagesChart"></div>
+    </div>
+
+    <script src="countries_data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-image: url("images/estrellas.gif");
+    
+}
+
+#selectedPlanetImage {
+    width: 300px; 
+    height: 300px; 
+  }
+  
+
+  #planetResultContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+  }
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+#planetInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+  }
+  
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+  }
+#resultText {
+  color: black;
+}  
+  #planetResultContainer {
+    display: none;
+  }
+  
+#weightForm select{
+    width: 150px;
+    height: 30px;
+    margin: 30px;
+}
+#weightForm input{
+    width: 150px;
+    height: 24px;
+}
+#weightForm button{
+    width: 150px;
+    height: 30px;
+}

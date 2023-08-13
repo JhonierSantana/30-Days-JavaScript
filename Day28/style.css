@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+}
+.containerInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+.containerInput p.error-message {
+    color: red;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+.containerInput input {
+    height: 30px;
+    margin: 5px;
+}
+
+.containerInput button {
+    height: 37px;
+    margin: 5px;
+    width: 100px;
+    
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+    text-align: center;
+}
+table tr {
+    margin-bottom: 10px;
+}
+
+.table {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;    
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #c99c7fd2;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 10px solid white; 
+    background-color: #c99c7fd2;
+}
+
+thead th {
+    background-color: #ddd;
+}
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.delete-button i {
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 20px;
+    text-align: center;
+}
+
+.button1 {
+    margin: 0 2px;
+    padding: 4px 8px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.containerInput input.error {
+    border: 1px solid red;
+}
+
